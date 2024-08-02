@@ -1,5 +1,5 @@
 import = [
-  "C:\\Users\\Isaque Diniz\\AppData\\Roaming\\alacritty\\themes\\gruvbox_material_hard_dark.toml"
+  "C:\\Users\\Isaque Diniz\\AppData\\Roaming\\alacritty\\themes\\gruvbox_material_medium_dark.toml"
 ]
 
 live_config_reload = true
@@ -18,11 +18,11 @@ dimensions = { columns = 150, lines = 40 }
 position = { x = 0, y = 0 }
 
 [font]
-normal = { family = "FiraCode Nerd Font Mono", style = "Regular" }
-italic = { family = "FiraCode Nerd Font Mono", style = "Italic" }
-bold = { family = "FiraCode Nerd Font Mono", style = "Bold" }
-bold_italic = { family = "FiraCode Nerd Font Mono", style = "Bold Italic" }
-size = 15
+normal = { family = "JetBrainsMono NF", style = "Regular" }
+italic = { family = "JetBrainsMono NF", style = "Italic" }
+bold = { family = "JetBrainsMono NF", style = "Bold" }
+bold_italic = { family = "JetBrainsMono NF", style = "Bold Italic" }
+size = 14
 
 [cursor]
 style = { shape = "Beam", blinking = "On" }

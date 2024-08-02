@@ -45,4 +45,9 @@ source ~/.zsh/zsh-you-should-use/you-should-use.plugin.zsh
 source ~/.zsh/spaceship/spaceship.zsh
 #source <(fzf --zsh)
 
+
+alias ls="eza --icons"
+#alias necta-prd="sshpass -p PASSWORD_HERE ssh user_gas_linux@10.10.10.31"
+#alias necta-hml="sshpass -p  PASSWORD_HERE ssh user_gas_linux@10.10.10.29"
+
 eval $(thefuck --alias)
