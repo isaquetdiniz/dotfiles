@@ -3,6 +3,11 @@
 ### KEYBOARD
 - husky-gaming-blizzard [ahk remapping keys script](/husky-gaming-blizzard/remapear-setas.ahk)
 
+### Terminal
+- [alacritty](https://alacritty.org/)
+  - Config file -> [alacritty.toml](/alacritty/alacritty.toml)
+  - [Themes](/alacritty/themes)
+
 ### SHELL
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
     - Config file -> [.zshrc](/zsh/.zshrc)
@@ -11,7 +16,7 @@
         - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
         - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
         - [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
-	- [zsh-completions](https://github.com/zsh-users/zsh-completions)
+        - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - Utilities
     - [eza (alternative to ls)](https://github.com/eza-community/eza)
     - [zoxide](https://github.com/ajeetdsouza/zoxide)
