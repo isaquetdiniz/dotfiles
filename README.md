@@ -20,7 +20,6 @@
 - Utilities
     - [eza (alternative to ls)](https://github.com/eza-community/eza)
     - [zoxide](https://github.com/ajeetdsouza/zoxide)
-    - [exa (another alternative to ls)](https://github.com/ogham/exa)
     - [batcat (alternative to cat)](https://github.com/sharkdp/bat)
     - [thefuck](https://github.com/nvbn/thefuck)
     - [fzf (search files)](https://github.com/junegunn/fzf)

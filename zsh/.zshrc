@@ -47,7 +47,8 @@ source ~/.zsh/spaceship/spaceship.zsh
 
 
 alias ls="eza --icons"
+alias cat="batcat --theme gruvbox-dark"
 #alias necta-prd="sshpass -p PASSWORD_HERE ssh user_gas_linux@10.10.10.31"
-#alias necta-hml="sshpass -p  PASSWORD_HERE ssh user_gas_linux@10.10.10.29"
+#alias necta-hml="sshpass -p PASSWORD_HERE ssh user_gas_linux@10.10.10.29"
 
 eval $(thefuck --alias)
