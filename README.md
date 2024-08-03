@@ -7,6 +7,7 @@
 - [alacritty](https://alacritty.org/)
   - Config file -> [alacritty.toml](/alacritty/alacritty.toml)
   - [Themes](/alacritty/themes)
+  - Font [JetBrainsMono NF](https://www.nerdfonts.com/font-downloads)
 
 ### SHELL
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
