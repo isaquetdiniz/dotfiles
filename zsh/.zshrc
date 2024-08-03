@@ -44,7 +44,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-you-should-use/you-should-use.plugin.zsh
 source ~/.zsh/spaceship/spaceship.zsh
 #source <(fzf --zsh)
-
+fpath=(~/.zsh/zsh-completions/src $fpath)
 
 alias ls="eza --icons"
 alias cat="batcat --theme gruvbox-dark"
@@ -52,3 +52,4 @@ alias cat="batcat --theme gruvbox-dark"
 #alias necta-hml="sshpass -p PASSWORD_HERE ssh user_gas_linux@10.10.10.29"
 
 eval $(thefuck --alias)
+eval "$(zoxide init zsh)"
