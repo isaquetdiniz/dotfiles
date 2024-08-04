@@ -24,6 +24,8 @@
     - [batcat (alternative to cat)](https://github.com/sharkdp/bat)
     - [thefuck](https://github.com/nvbn/thefuck)
     - [fzf (search files)](https://github.com/junegunn/fzf)
+    - [nvm - node version manager](https://github.com/nvm-sh/nvm)
+    - [mise - generic version manager](https://github.com/jdx/mise)
 
 ### GIT
 - [.gitconfig](/git/.gitconfig)
