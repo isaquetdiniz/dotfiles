@@ -30,6 +30,9 @@
 ### GIT
 - [.gitconfig](/git/.gitconfig)
 
+### TMUX
+- [.tmux.conf](/tmux/.tmux.conf)
+
 ### Docker
 - [Install](https://docs.docker.com/desktop/install/linux-install/)
 - Utilities
