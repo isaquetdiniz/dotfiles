@@ -1,17 +1,21 @@
+[general]
 import = [
   "C:\\Users\\Isaque Diniz\\AppData\\Roaming\\alacritty\\themes\\gruvbox_material_medium_dark.toml"
+  ##"~/.config/alacritty/themes/gruvbox_material_medium_dark.toml" -> MacOS
 ]
-
 live_config_reload = true
 
 [env]
 TERM="xterm-256color"
 
-[shell]
-program = "ubuntu"
+## Only for WSL
+#[shell]
+#program = "ubuntu"
 
 [window]
 decorations = "None"
+# MacOS -> decorations = "Transparent"
+# MacOS -> startup_mode = "Windowed"
 padding = { x = 10, y = 10 }
 dynamic_padding = true
 dimensions = { columns = 150, lines = 40 }
