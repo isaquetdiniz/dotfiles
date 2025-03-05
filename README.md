@@ -26,6 +26,7 @@
     - [fzf (search files)](https://github.com/junegunn/fzf)
     - [nvm - node version manager](https://github.com/nvm-sh/nvm)
     - [mise - generic version manager](https://github.com/jdx/mise)
+    - [chafa - image viewer](https://github.com/hpjansson/chafa)
 
 ### GIT
 - [.gitconfig](/git/.gitconfig)
