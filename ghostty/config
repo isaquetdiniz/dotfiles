@@ -1,0 +1,18 @@
+font-size = 18
+
+theme = GruvboxDark
+
+cursor-style = bar
+cursor-style-blink = true
+cursor-click-to-move = true
+shell-integration-features = no-cursor
+
+maximize = true
+
+window-padding-x = 10
+window-padding-y = 10
+window-width = 200
+window-height = 200
+window-step-resize = true
+
+macos-icon = retro

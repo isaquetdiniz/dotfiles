@@ -8,6 +8,8 @@
   - Config file -> [alacritty.toml](/alacritty/alacritty.toml)
   - [Themes](/alacritty/themes)
   - Font [JetBrainsMono NF](https://www.nerdfonts.com/font-downloads)
+- [ghostty](https://ghostty.org)
+  - Config file -> [conf](/ghostty/conf)
 
 ### SHELL
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
