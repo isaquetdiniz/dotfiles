@@ -29,6 +29,7 @@
     - [nvm - node version manager](https://github.com/nvm-sh/nvm)
     - [mise - generic version manager](https://github.com/jdx/mise)
     - [chafa - image viewer](https://github.com/hpjansson/chafa)
+    - [lazygit](https://github.com/jesseduffield/lazygit)
 
 ### GIT
 - [.gitconfig](/git/.gitconfig)
