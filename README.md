@@ -30,6 +30,10 @@
     - [mise - generic version manager](https://github.com/jdx/mise)
     - [chafa - image viewer](https://github.com/hpjansson/chafa)
     - [lazygit](https://github.com/jesseduffield/lazygit)
+ 
+ ### NEOVIM
+ - luarocks
+ - lazyvim
 
 ### GIT
 - [.gitconfig](/git/.gitconfig)
