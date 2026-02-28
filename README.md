@@ -14,7 +14,7 @@
 ### SHELL
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
     - Config file -> [.zshrc](/zsh/.zshrc)
-    - Prompt -> [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt)
+    - Prompt -> [starship](https://starship.rs/)
     - Plugins (put on ~/.zsh)
         - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
         - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
