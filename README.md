@@ -28,6 +28,7 @@
     - [rg](https://github.com/BurntSushi/ripgrep)
     - [mise - generic version manager](https://github.com/jdx/mise)
     - [lazygit](https://github.com/jesseduffield/lazygit)
+    - [lazydocker](https://github.com/jesseduffield/lazydocker)
  
  ### NEOVIM
  - luarocks

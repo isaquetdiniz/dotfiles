@@ -55,6 +55,7 @@ alias cat="bat --theme gruvbox-dark"
 alias vi="nvim"
 alias vim="nvim"
 alias lg="lazygit"
+alias ld="lazydocker"
 alias rg="rg --hidden --glob '!.git'" # Usa o ripgrep ignorando a pasta .git
 
 # ==============================================================================
