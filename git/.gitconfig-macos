@@ -1,0 +1,29 @@
+[user]
+    name = Isaque Diniz
+    email = itd@cin.ufpe.br
+    signingkey = /Users/isaque/.ssh/id_ed25519.pub
+[init]
+    defaultBranch = main
+[core]
+    editor = code --wait
+    excludesfile = ~/.gitignore_global
+[github]
+    user = isaquetdiniz
+[commit]
+    gpgsign = true
+[gpg]
+    format = ssh
+[pull]
+    rebase = true
+#[fetch]
+    #prune = true
+[merge]
+    conflictstyle = zdiff3
+[alias]
+    s = status -s
+    a = add .
+    c = !git add . && git commit -m
+    amend = !git add . && git commit --amend --no-edit
+    l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)[%cn] %C(green)%cr'
+    lg = log --graph --pretty=format:'%C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    undo = reset HEAD~1
