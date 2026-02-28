@@ -24,11 +24,9 @@
     - [eza (alternative to ls)](https://github.com/eza-community/eza)
     - [zoxide](https://github.com/ajeetdsouza/zoxide)
     - [batcat (alternative to cat)](https://github.com/sharkdp/bat)
-    - [thefuck](https://github.com/nvbn/thefuck)
     - [fzf (search files)](https://github.com/junegunn/fzf)
-    - [nvm - node version manager](https://github.com/nvm-sh/nvm)
+    - [rg](https://github.com/BurntSushi/ripgrep)
     - [mise - generic version manager](https://github.com/jdx/mise)
-    - [chafa - image viewer](https://github.com/hpjansson/chafa)
     - [lazygit](https://github.com/jesseduffield/lazygit)
  
  ### NEOVIM
@@ -38,16 +36,6 @@
 ### GIT
 - [.gitconfig](/git/.gitconfig)
 
-### TMUX
-- [.tmux.conf](/tmux/.tmux.conf)
-
-### VSCODE
-- [settings.json](/vscode/settings.json)
-
 ### Docker
-- [Install](https://docs.docker.com/desktop/install/linux-install/)
 - Utilities
     - [ctop (view containers usage)](https://github.com/bcicen/ctop)
-
-### AWS
-- [Install](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
