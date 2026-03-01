@@ -61,7 +61,7 @@ alias rg="rg --hidden --glob '!.git'" # Usa o ripgrep ignorando a pasta .git
 # ==============================================================================
 # 6. PLUGINS E TEMAS
 # ==============================================================================
-
+source ~/.zsh/fzf-tab/fzf-tab.plugin.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-you-should-use/you-should-use.plugin.zsh
 

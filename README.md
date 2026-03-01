@@ -20,6 +20,7 @@
         - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
         - [zsh-you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)
         - [zsh-completions](https://github.com/zsh-users/zsh-completions)
+        - [fzf-tab](https://github.com/Aloxaf/fzf-tab)
 - Utilities
     - [eza (alternative to ls)](https://github.com/eza-community/eza)
     - [zoxide](https://github.com/ajeetdsouza/zoxide)
@@ -36,7 +37,3 @@
 
 ### GIT
 - [.gitconfig](/git/.gitconfig)
-
-### Docker
-- Utilities
-    - [ctop (view containers usage)](https://github.com/bcicen/ctop)
