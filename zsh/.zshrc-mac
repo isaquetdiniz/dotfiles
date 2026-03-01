@@ -62,6 +62,12 @@ alias rg="rg --hidden --glob '!.git'" # Usa o ripgrep ignorando a pasta .git
 # 6. PLUGINS E TEMAS
 # ==============================================================================
 source ~/.zsh/fzf-tab/fzf-tab.plugin.zsh
+# Previews interativos para o fzf-tab
+# Usa o eza para mostrar o conteúdo de pastas ao usar o comando cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
+# Usa o bat para mostrar o conteúdo de arquivos ao usar comandos como cat, nvim, etc.
+zstyle ':fzf-tab:complete:*:*' fzf-preview 'bat --color=always --style=numbers,changes $realpath'
+
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-you-should-use/you-should-use.plugin.zsh
 
