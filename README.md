@@ -27,6 +27,7 @@
     - [batcat (alternative to cat)](https://github.com/sharkdp/bat)
     - [fzf (search files)](https://github.com/junegunn/fzf)
     - [rg](https://github.com/BurntSushi/ripgrep)
+    - [dust (alternative to du)](http://github.com/bootandy/dust)
     - [mise - generic version manager](https://github.com/jdx/mise)
     - [lazygit](https://github.com/jesseduffield/lazygit)
     - [lazydocker](https://github.com/jesseduffield/lazydocker)
