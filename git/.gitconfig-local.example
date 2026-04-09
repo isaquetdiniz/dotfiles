@@ -1,0 +1,4 @@
+[user]
+    name = Your Name
+    email = your@email.com
+    signingkey = /path/to/.ssh/your-signing-key.pub
