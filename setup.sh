@@ -313,6 +313,47 @@ install_claude() {
   success "claude installed"
 }
 
+install_nerd_font() {
+  local font_name="JetBrainsMono"
+
+  if [[ "$OS_TYPE" == "macos" ]]; then
+    local font_dir="$HOME/Library/Fonts"
+  else
+    local font_dir="$HOME/.local/share/fonts"
+  fi
+
+  if ls "$font_dir"/${font_name}*.ttf &>/dev/null; then
+    success "JetBrainsMono Nerd Font already installed"
+    return
+  fi
+
+  info "Installing JetBrainsMono Nerd Font..."
+  local tmp_dir
+  tmp_dir="$(mktemp -d)"
+  local url
+  url="$(curl -fsSL "https://api.github.com/repos/ryanoasis/nerd-fonts/releases/latest" \
+    | grep "browser_download_url.*${font_name}.zip" \
+    | head -1 \
+    | cut -d '"' -f 4)"
+
+  if [[ -z "$url" ]]; then
+    warn "Could not find JetBrainsMono Nerd Font release"
+    rm -rf "$tmp_dir"
+    return 1
+  fi
+
+  curl -fsSL "$url" -o "$tmp_dir/font.zip"
+  mkdir -p "$font_dir"
+  unzip -qo "$tmp_dir/font.zip" -d "$font_dir" "*.ttf"
+  rm -rf "$tmp_dir"
+
+  if [[ "$OS_TYPE" == "linux" ]]; then
+    fc-cache -f "$font_dir" 2>/dev/null || true
+  fi
+
+  success "JetBrainsMono Nerd Font installed"
+}
+
 # ==============================================================================
 # ZSH Plugins
 # ==============================================================================
@@ -454,6 +495,7 @@ main() {
   install_lazydocker
   install_zellij
   install_claude
+  install_nerd_font
 
   # Plugins and configs
   install_zsh_plugins
