@@ -439,9 +439,7 @@ main() {
   echo "=========================================="
   echo ""
 
-  if [[ "$USER_MODE" == true ]]; then
-    ensure_local_bin
-  fi
+  ensure_local_bin
 
   clone_dotfiles
 
