@@ -47,6 +47,9 @@ cd ~/dotfiles
 - Global `CLAUDE.md` with orchestration workflow and model assignment
 - `settings.json.example` template (copied on first setup)
 
+### Font
+- [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts) — installed automatically from GitHub releases
+
 ### Terminal Emulators (manual setup)
 - [Alacritty](https://alacritty.org/) — config + gruvbox themes
 - [Ghostty](https://ghostty.org) — config
