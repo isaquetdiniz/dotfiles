@@ -309,11 +309,8 @@ install_claude() {
   fi
 
   info "Installing claude..."
-  if command_exists npm; then
-    npm install -g @anthropic-ai/claude-code
-  else
-    warn "npm not found. Install Node.js first (e.g. via mise), then run: npm install -g @anthropic-ai/claude-code"
-  fi
+  curl -fsSL https://claude.ai/install.sh | bash
+  success "claude installed"
 }
 
 # ==============================================================================
