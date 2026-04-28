@@ -279,7 +279,7 @@ install_mise() {
 
 install_lazygit() {
   brew_or_manual "lazygit" "lazygit" \
-    install_github_binary "lazygit" "jesseduffield/lazygit" "lazygit_.*_Linux_${ARCH_TYPE}.tar.gz" 0
+    install_github_binary "lazygit" "jesseduffield/lazygit" "lazygit_.*_linux_${ARCH_TYPE}.tar.gz" 0
 }
 
 install_lazydocker() {
