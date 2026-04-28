@@ -320,6 +320,10 @@ install_nerd_font() {
     local font_dir="$HOME/Library/Fonts"
   else
     local font_dir="$HOME/.local/share/fonts"
+    if ! command_exists unzip; then
+      info "Installing unzip..."
+      sudo apt-get install -y unzip
+    fi
   fi
 
   if ls "$font_dir"/${font_name}*.ttf &>/dev/null; then
