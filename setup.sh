@@ -67,7 +67,7 @@ install_github_binary() {
   url="$(curl -fsSL "https://api.github.com/repos/${repo}/releases/latest" \
     | grep "browser_download_url.*${pattern}" \
     | head -1 \
-    | cut -d '"' -f 4)"
+    | cut -d '"' -f 4 || true)"
 
   if [[ -z "$url" ]]; then
     warn "Could not find release for $name (pattern: $pattern)"
@@ -279,7 +279,7 @@ install_mise() {
 
 install_lazygit() {
   brew_or_manual "lazygit" "lazygit" \
-    install_github_binary "lazygit" "jesseduffield/lazygit" "lazygit_.*_linux_${ARCH}.tar.gz" 0
+    install_github_binary "lazygit" "jesseduffield/lazygit" "lazygit_.*_Linux_${ARCH_TYPE}.tar.gz" 0
 }
 
 install_lazydocker() {
